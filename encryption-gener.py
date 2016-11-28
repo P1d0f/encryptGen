@@ -21,12 +21,17 @@
 #  MA 02110-1301, USA. 
 #  encryption-generator.py Version 1.0
 
+import os
 import sys
 import base64
 import hashlib
 from datetime import date
 from datetime import datetime
 
+if os.name in ['nt','win32']:
+	os.syetem('cls')
+else:
+	os.system('clear')
 date=date.today()
 time=datetime.now()
 print "[*] Author Pidof		[*]"
