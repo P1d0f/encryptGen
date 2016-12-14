@@ -29,7 +29,7 @@ from datetime import date
 from datetime import datetime
 
 if os.name in ['nt','win32']:
-	os.syetem('cls')
+	os.system('cls')
 else:
 	os.system('clear')
 date=date.today()
