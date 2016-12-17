@@ -154,13 +154,13 @@ while back == 'back':
 				for i in(5,4,3,2,1):
 					print "[*] decoded at",time
 				print "\n[*] result :",dec32
-			menu_telo="base64" 							#this is Bug Sorry
-			if oke == menu_telo:						#
-				raw3=raw_input('string base64 $ ')		#
+			menu_telo="base64" 				#this is Bug Sorry
+			if oke == menu_telo:				#
+				raw3=raw_input('string base64 $ ')	#
 				dec64=base64.b64decode('%s' % (raw3))	#
-				for i in (5,4,3,2,1):					#
-					print "[*] decoded at",time			#
-				print "\n[*] result :",dec64			#
+				for i in (5,4,3,2,1):			#
+					print "[*] decoded at",time	#
+				print "\n[*] result :",dec64		#
 			menu_telo="exit"
 			if menu_telo == oke:
 				print "[*] thanks for shopping"
