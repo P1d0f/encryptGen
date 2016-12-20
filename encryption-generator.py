@@ -52,7 +52,7 @@ while True:
 		menu=raw_input('\n[*] encrypt or decrypt $ ')
 		menu_item="update"
 		if menu_item == menu:
-			print "[*] Sorry Only support using Linux "
+			print "[*] Updating Databases .... "
 			url=urllib.urlretrieve("https://raw.githubusercontent.com/P1d0f/encryptGen/master/encryption-generator.py","encryption-generator.py")
 			print "[*] Update Succesfully"
 			sys.exit()
